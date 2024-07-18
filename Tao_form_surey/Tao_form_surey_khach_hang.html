@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey Khach Hang</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+<h2>Market Research Survey</h2>
+<p class="header">Please take a few moments to complete this satisfaction survey.</p>
+<form action="http://abcdef.com" method="post">
+    <div class="hover-effect">
+        <p>What is your age range?</p>
+        <select id="age-range" name="age-range">
+            <option value="18-24">18-24</option>
+            <option value="25-34">25-34</option>
+            <option value="35-50">35-50</option>
+            <option value="50+">50+</option>
+        </select>
+    </div>
+
+    <div class="hover-effect">
+        <p>What is your yearly income range?</p>
+        <select id="income-range" name="income-range">
+            <option value="$0-$25,000">$0-$25,000</option>
+            <option value="$25,001-$50,000">$25,001-$50,000</option>
+            <option value="$50,001-$100,000">$50,001-$100,000</option>
+            <option value="$100,000+">$100,000+</option>
+        </select>
+    </div>
+    <div>
+        <p>Gender Identity</p>
+        <input type="radio" name="gender">Male
+        <br>
+        <input type="radio" name="gender">Female
+    </div>
+
+    <div class="hover-effect">
+        <p>Which of the following products have your purchased in the last 2 months. Please check all that apply.</p>
+        <input type="checkbox" name="product">Product 1 <br>
+        <input type="checkbox" name="product">Product 2 <br>
+        <input type="checkbox" name="product">Product 3
+    </div>
+
+    <div class="hover-effect">
+        <p>How often would you use our new product?</p>
+        <input type="radio" name="usageFrequency">Daily <br>
+        <input type="radio" name="usageFrequency">Weekly <br>
+        <input type="radio" name="usageFrequency">Monthly
+    </div>
+</form>
+<table class="hover-effect">
+    <p>What would you pay for the new product?</p>
+    <tr>
+        <th>$</th>
+        <td><input style="width: 90px;" type="text" name="dollars"></td>
+        <th>.</th>
+        <td><input style="width: 15px;" type="text" name="cents"></td>
+    </tr>
+    <tr>
+        <td></td>
+        <td>Dollars</td>
+        <td></td>
+        <td>Cents</td>
+    </tr>
+</table>
+
+<div class="hover-effect">
+    <p>What features would you like to see in the new product.</p>
+    <textarea></textarea>
+</div>
+<div class="hover-effect">
+    <p>Please rate your level of agreement with the following statements.</p>
+    <table class="table2" border="1">
+        <tr>
+            <td></td>
+            <th>Strongly Disagree</th>
+            <th>Disagree</th>
+            <th>Agree</th>
+            <th>Strongly Agree</th>
+        </tr>
+        <tr>
+            <td>Our product are priced fairly</td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>1</span>
+                </div>
+            </td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>2</span>
+                </div>
+            </td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>3</span>
+                </div>
+            </td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>4</span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>Our products are high quality.</td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>1</span>
+                </div>
+            </td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>2</span>
+                </div>
+            </td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>3</span>
+                </div>
+            </td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>4</span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>You would recommend our product to a friend or coworker.</td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>1</span>
+                </div>
+            </td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>2</span>
+                </div>
+            </td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>3</span>
+                </div>
+            </td>
+            <td>
+                <div class="radio-group">
+                    <input type="radio" name="choose">
+                    <span>4</span>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+</table>
+<input class="submit" type="submit" value="Submit">
+</body>
+</html>
