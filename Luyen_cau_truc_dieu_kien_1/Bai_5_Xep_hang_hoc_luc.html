@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soKiemTra = +prompt("Điểm bài kiểm tra: ");
+    let soGiuaKi = +prompt("Điểm thi giữa kì: ");
+    let soCuoiKy = +prompt("Điểm thi cuối kỳ: ");
+    let soTrungBinh = (soKiemTra + soGiuaKi + soCuoiKy) / 3
+    if (soTrungBinh >= 8) {
+        alert("Loại Giỏi");
+    } else if (soTrungBinh >= 6) {
+        alert("Loại Khá");
+    } else if (soTrungBinh >= 5) {
+        alert("Loại Trung Bình");
+    } else {
+        alert("Loại Yếu");
+    }
+</script>
+</body>
+</html>

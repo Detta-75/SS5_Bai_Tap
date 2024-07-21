@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thuế thu phập</title>
+</head>
+<body>
+<script>
+    let thuNhap = +prompt("Nhập thu nhập: ");
+    let thue = 0;
+    if (thuNhap <= 5000000) {
+        thue = thuNhap * 0.05;
+        document.write("Số thuế phải nộp là: " + thue);
+    } else if (thuNhap <= 10000000) {
+        thue = 5000000 * 0.05 + (thuNhap - 5000000) * 0.1;
+        document.write("Số thuế phải nộp là: " + thue);
+    } else {
+        thue = 5000000 * 0.05 + 5000000 * 0.1 + (thuNhap - 10000000) * 0.2;
+        document.write("Số thuế phải nộp là: " + thue);
+    }
+</script>
+</body>
+</html>

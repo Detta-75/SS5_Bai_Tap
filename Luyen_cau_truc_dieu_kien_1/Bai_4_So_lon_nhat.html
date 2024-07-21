@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let soMot = +prompt("Nhập số thứ 1:");
+    let soHai = +prompt("Nhập số thứ 2:");
+    let soBa = +prompt("Nhập số thứ 3");
+    if (soMot >= soHai && soMot >= soBa) {
+        alert("Số lớn nhất là: " + soMot);
+    } else if (soHai >= soBa) {
+        alert("Số lớn nhất là: " + soHai);
+    } else {
+        alert("Số lớn nhất là: " + soBa);
+    }
+</script>
+</body>
+</html>
